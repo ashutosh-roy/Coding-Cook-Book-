@@ -17,7 +17,8 @@ Input: [4,1,2,1,2]
 Output: 4
  </h3>
 _____________________________________________________________________________________
-
+<pre> 
+<code> 
 class Solution(object):
     def singleNumber(self, nums):
         """
@@ -27,6 +28,8 @@ class Solution(object):
         print(nums)
         print(set(nums))
         return 2 * sum(set(nums)) - sum(nums)
+</code> 
+</pre> 
 _____________________________________________________________________________________       
 
  
